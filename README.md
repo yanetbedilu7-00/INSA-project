@@ -1,8 +1,8 @@
 # Apex Strike Framework
 
-This is my graduation project. It's a proof-of-concept (PoC) framework built to understand how modern malware evades antivirus and steals data. 
+This is our graduation project. It's a proof-of-concept (PoC) framework built to understand how modern malware evades antivirus and steals data. 
 
-I kept the scope focused on the two most critical parts of an attack: getting past Windows Defender, and exfiltrating data out of a restricted network. I did not build a full Remote Access Trojan (RAT), as the goal was to study the mechanics, not build a weapon.
+We kept the scope focused on the two most critical parts of an attack: getting past Windows Defender, and exfiltrating data out of a restricted network. We did not build a full Remote Access Trojan (RAT), as the goal was to study the mechanics, not build a weapon.
 
 ## What's Inside
 
@@ -19,7 +19,7 @@ I kept the scope focused on the two most critical parts of an attack: getting pa
 **Source Code (`3_Source_Code`)**
 The raw C code for both modules is here so you can see exactly how they work.
 
-## Why I Built It This Way
-The hardest part of this project wasn't the code, it was dealing with the network restrictions in the virtual machine. Instead of giving up, I pivoted to using legitimate Windows tools (`curl.exe`) and external services (Discord) to bypass the block, which is exactly how real APTs operate in restricted environments.
+## Why we Built It This Way
+The hardest part of this project wasn't the code, it was dealing with the network restrictions in the virtual machine. Instead of giving up, we pivoted to using legitimate Windows tools (`curl.exe`) and external services (Discord) to bypass the block, which is exactly how real APTs operate in restricted environments.
 
 *Note: This was built strictly for educational purposes to understand defensive evasion.*
