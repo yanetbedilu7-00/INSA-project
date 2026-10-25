@@ -39,7 +39,7 @@ HTTP Listener: It listens on port 8443 for incoming POST requests from the impla
 
 XOR Decryption: It catches the raw, encrypted network traffic and applies the XOR cipher to decrypt the payload back into readable JSON.
 
-*Data Logging: It parses the JSON and formats the stolen data into a clean, readable output for the operator (showing the status of the Camera, Screenshot, and the Stolen ZIP File).
+Data Logging: It parses the JSON and formats the stolen data into a clean, readable output for the operator (showing the status of the Camera, Screenshot, and the Stolen ZIP File).
 
 Beacon Handling: It accepts /register requests (initial data drop) and /poll requests (the implant checking in), responding with a 200 OK status to keep the connection alive.
 
